@@ -5,7 +5,7 @@ const port=3000
 app.get('/',(req,res)=>{
     res.send('HEllo World!')
 })
-app.get('/contactt',(req,res)=>{
+app.get('/contact',(req,res)=>{
     res.send('HEllo Contact!')
 })
 app.get('/about',(req,res)=>{
